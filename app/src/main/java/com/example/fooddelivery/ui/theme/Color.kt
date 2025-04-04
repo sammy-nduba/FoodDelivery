@@ -7,7 +7,7 @@ import androidx.compose.ui.graphics.Color
 val Pink = Color ( 0XFFF28482)
 val Green = Color ( 0xFF84A59D)
 val Yellow = Color ( 0xFFF7EDE2)
-val YellowLight = Color (OxFFFFFFF2)
+val YellowLight = Color(0xFFFFFF2)
 val Dark = Color (0xFF3D405B)
 
 @Immutable
@@ -29,7 +29,7 @@ val LocalAppColors = staticCompositionLocalOf {
         AppColors(
             background = Color.Unspecified,
             onBackground = Color.Unspecified,
-            surface = Color. Unspecified,
+            surface = Color.Unspecified,
             onSurface = Color.Unspecified,
             secondarySurface = Color. Unspecified,
             onSecondarySurface = Color. Unspecified,
